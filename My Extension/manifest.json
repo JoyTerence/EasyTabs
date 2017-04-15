@@ -13,6 +13,10 @@
   "permissions": [
     "tabs",
     "https://ajax.googleapis.com/"
-  ]
+  ],
+
+  "background" : {
+    "scripts" : [ "popup.js" ]
+  }
 
 }
